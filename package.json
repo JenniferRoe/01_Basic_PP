@@ -2,7 +2,7 @@
   "name": "01_basic_pp",
   "version": "1.0.0",
   "description": "",
-  "main": "src/02_variablen.js",
+  "main": "src/03_prompt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/01a-PP-ComCave/01_Basic_PP/issues"
   },
-  "homepage": "https://github.com/01a-PP-ComCave/01_Basic_PP#readme"
+  "homepage": "https://github.com/01a-PP-ComCave/01_Basic_PP#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
