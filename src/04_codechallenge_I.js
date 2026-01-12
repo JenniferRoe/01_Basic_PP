@@ -9,4 +9,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-const prompt = require('prompt-sync')({sigint: true});
+const berechnung = require('prompt-sync')({sigint: true});
+let ersteZahl = berechnung("Geben Sie die erste Zahl ein: ");
+let zweiteZahl = berechnung("Geben Sie die zweite Zahl ein: ");
+let summe = parseInt(ersteZahl) + parseInt(zweiteZahl);
+console.log("Die Summe der Zahlen ist: " + summe); 
