@@ -38,4 +38,4 @@ console.log("----------------")*/
 
 
 /* Variablen vs. Konstanten in JS /*
-
+*/
