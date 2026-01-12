@@ -27,9 +27,12 @@ console.log("Hi, ich bin " + firstName + " " + familyName + "!");  // Ausgabe
     Wertzuweisung II + Datentypen 
     JS ist ein untypisierte Sprache!
 */
-/*console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+
+let test; //Deklaration
+
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
 console.log("Inhalt: " + test); // Ausgabe Inhalt
-console.log("----------------")*/
+console.log("----------------")
 
 
 
@@ -37,5 +40,5 @@ console.log("----------------")*/
 
 
 
-/* Variablen vs. Konstanten in JS /*
-*/
+// Variablen vs. Konstanten in JS 
+
