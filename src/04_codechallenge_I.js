@@ -16,10 +16,23 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // console.log("Die Summe der Zahlen ist: " + summe);
  
 
-const zahl =4.7;
-const ganzzahl = Math.floor(zahl);
-const aufgerundet = Math.ceil(zahl);
-const wurzel = Math.sqrt(16);
-console.log("Ganzzahl: " + ganzzahl);
-console.log("Aufgerundet: " + aufgerundet);
-console.log("Wurzel von 16: " + wurzel);
+// 
+/*********   CODE CHALLENGE 03 const+ Prozent **********/
+
+const preis = 79.77;
+const mwst = 0.19;
+const bruttoPreis = preis + (preis * mwst);
+console.log("Der Bruttopreis betraegt: " + bruttoPreis + " Euro");
+
+// ODER
+
+const prozent = (30/200) * 100;
+console.log("30 ist " + prozent + "% von 200");
+
+
+
+
+
+
+
+
