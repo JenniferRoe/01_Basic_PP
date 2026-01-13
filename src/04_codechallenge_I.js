@@ -9,8 +9,17 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-const berechnung = require('prompt-sync')({sigint: true});
-let ersteZahl = berechnung("Geben Sie die erste Zahl ein: ");
-let zweiteZahl = berechnung("Geben Sie die zweite Zahl ein: ");
-let summe = parseInt(ersteZahl) + parseInt(zweiteZahl);
-console.log("Die Summe der Zahlen ist: " + summe); 
+// const berechnung = require('prompt-sync')({sigint: true});
+// let ersteZahl = berechnung("Geben Sie die erste Zahl ein: ");
+// let zweiteZahl = berechnung("Geben Sie die zweite Zahl ein: ");
+// let summe = parseInt(ersteZahl) + parseInt(zweiteZahl);
+// console.log("Die Summe der Zahlen ist: " + summe);
+ 
+
+const zahl =4.7;
+const ganzzahl = Math.floor(zahl);
+const aufgerundet = Math.ceil(zahl);
+const wurzel = Math.sqrt(16);
+console.log("Ganzzahl: " + ganzzahl);
+console.log("Aufgerundet: " + aufgerundet);
+console.log("Wurzel von 16: " + wurzel);
