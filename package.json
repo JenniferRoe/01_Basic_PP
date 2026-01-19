@@ -2,8 +2,8 @@
   "name": "01_basic_pp",
   "version": "1.0.0",
   "description": "",
-  "main": "ssrc/06_controlflow.js",
-  "scripts": {
+  "main": "src/10_funktionen_II.js",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

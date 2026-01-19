@@ -15,5 +15,22 @@ Alter 13-17 // Cola
 -->zB: "Max trinkt Cola."
 
 /* Getränke-Challenge */
+const prompt = require("prompt-sync")({sigint: true});
 
+// let name = prompt("What is your name?:");
+// let age = parseInt(prompt("What is your age?:"));  
+// let drink;
+
+// if (age >= 0 && age <= 5) { 
+//     drink = "Milk";
+// } else if (age >= 6 && age <= 12) {
+//     drink = "Juice";
+// } else if (age >= 14 && age <= 17) {
+//     drink = "Coke";
+// } else if (age >= 18) {
+//     drink = "Wine";
+// } else {
+//     drink = "...nothing";
+// }
+// console.log(name + " drinks " + drink + "!");
 
